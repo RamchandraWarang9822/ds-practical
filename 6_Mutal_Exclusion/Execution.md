@@ -1,6 +1,6 @@
 # Steps 
 
-### Create [TokenRing.java]()
+### Create [TokenRing.java](TokenRing.java)
 
 - Import Scanner
 - Initiate main and scanner within main
