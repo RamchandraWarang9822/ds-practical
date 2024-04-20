@@ -8,7 +8,10 @@
 
 # Execution
 
-**Compile Java code :** ```javac *.java```
+**Compile Java code :** 
+```bash
+javac *.java
+```
 
 1. Execute ```java Server```
 2. Execute ```java Client```

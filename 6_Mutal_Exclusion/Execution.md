@@ -21,7 +21,10 @@
 
 # Execution
 
-```
+```bash
 javac TokenRing.java
+```
+
+```bash
 java TokenRing
 ```

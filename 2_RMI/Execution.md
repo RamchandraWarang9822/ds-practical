@@ -32,10 +32,22 @@
 
 Three Seperate Terminals 
 
-**Compile Java code :** ```javac *.java```
+**Compile Java code :** 
+```bash
+javac *.java
+```
 
-1. Run ```rmiregistry```
-2. Execute ```java Server```
-3. Execute ```java Client```
-    - Input two String
-    - Output will be displayed
+### 1. Run 
+```bash
+rmiregistry
+```
+### 2. Execute 
+```bash
+java Server
+```
+### 3. Execute 
+```bash
+java Client
+```
+#### - Input two String
+#### - Output will be displayed
