@@ -37,15 +37,21 @@ Three Seperate Terminals
 javac *.java
 ```
 
-### 1. Run 
+### 1. Compile with RMIC
+```bash
+rmic Servant
+```
+
+### 2. Run
 ```bash
 rmiregistry
 ```
-### 2. Execute 
+
+### 3. Execute 
 ```bash
 java Server
 ```
-### 3. Execute 
+### 4. Execute 
 ```bash
 java Client
 ```

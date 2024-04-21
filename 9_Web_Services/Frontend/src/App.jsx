@@ -15,12 +15,10 @@ function App() {
     <div className='card'>
       {data.map((person, index) => (
         <div key={index}>
-          <div>
-            <div>{person.name}</div>
-            <div>{person.phone}</div>
-            <div>{person.email}</div>
-            <br />
-          </div>
+          <div>{person.name}</div>
+          <div>{person.phone}</div>
+          <div>{person.email}</div>
+          <br />
         </div>
       ))}
     </div>
