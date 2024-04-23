@@ -11,7 +11,7 @@ public class ArrSum {
 		int size = MPI.COMM_WORLD.Size();
 		
 		int[] sendBuffer = null;
-		int[] recieveBuffer = new int[5];
+		int[] recieveBuffer = new int[unitsize];
 		int[] newRecieveBuffer = new int[size];
 		
 		

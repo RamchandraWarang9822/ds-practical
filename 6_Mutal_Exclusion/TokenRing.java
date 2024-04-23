@@ -38,15 +38,16 @@ public class TokenRing {
                 try {
                     System.out.print("Do you want to retry? 1. Yes 2. No \nEnter -> ");
                     choice = sc.nextInt();
-                    if (choice != 1) {
+                    if (choice != 1 && choice != 2) {
                         System.out.println("Invalid Input!");
+                    } else if (choice == 1){
+                        break;
                     }
                 } catch (InputMismatchException ie) {
                     System.err.println("Invalid Input! Please enter a valid integer.");
                     sc.next();
                 }
             }
-
         }
         sc.close();
     }
